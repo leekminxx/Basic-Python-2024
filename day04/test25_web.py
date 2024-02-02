@@ -3,9 +3,7 @@
 
 #from urllib.request import * request 모듈안의 모든 내용 다 사용할 때 
 
-from urllib.request import  Request , urlopen # Request 클래스와 urlopen만 쓰겠다
-from urllib.request import  Request , urlopen #* 
-from urllib.request import  Request , urlopen #* 
+from urllib.request import Request,urlopen # Request 클래스와 urlopen만 쓰겠다
 
 req = Request('https://www.naver.com/') #네이버 웹주소 (url)
 res = urlopen(req) #url주소로 웹사이트 열어달라고 요청 
